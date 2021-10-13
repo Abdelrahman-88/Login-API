@@ -1,0 +1,149 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    background: rgb(36, 53, 63);
+    overflow-y: hidden;
+}
+
+h1 {
+    color: rgb(23, 162, 184);
+}
+
+p {
+    color: #fff;
+}
+
+.btn-outline-info:hover {
+    color: #fff;
+}
+
+.form-control {
+    background-color: rgb(36, 53, 63);
+}
+
+.form-control:focus {
+    background-color: rgb(36, 53, 63);
+}
+
+input {
+    color: #fff !important;
+}
+
+/* loading */
+
+#loading, #loading2, #loading3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgb(36, 53, 63);
+}
+
+.spinner {
+    margin: auto 0;
+    width: 70px;
+    text-align: center;
+}
+
+.spinner>div {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+/* login */
+
+#loginPage img {
+    width: 50px;
+}
+
+#loginPage a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#loginPage a:hover {
+    text-decoration: underline;
+}
+
+/* signup */
+
+#signupPage img {
+    width: 50px;
+}
+
+#signupPage a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#signupPage a:hover {
+    text-decoration: underline;
+}
+
+/* home */
+
+.navbar-collapse {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+
+.navbar {
+    background: rgb(36, 53, 63) !important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

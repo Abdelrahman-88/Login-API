@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Signup</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="description" content="Smart Login System">
+
+    <meta name="keywords" content="Smart Login System">
+
+    <meta name="author" content="Abdelrahman Elsayed">
+
+    <link rel="shortcut icon" href="img/lock.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="loading2">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <div>
+
+        <div id="signupPage" class="w-75 m-auto text-center my-5 p-5 shadow">
+            <div class="text-start"><img src="img/login.png" alt="signup"></div>
+            <h1>Smart Login System</h1>
+            <input id="firstNameInput" class="form-control my-3" type="text" placeholder="Enter your first name">
+            <p id="firstNameAlert" class="alert alert-danger fw-bolder d-none">First name should be between 2 to 20
+                characters (a
+                to z or A to Z or space)</p>
+            <input id="lastNameInput" class="form-control my-3" type="text" placeholder="Enter your last name">
+            <p id="lastNameAlert" class="alert alert-danger fw-bolder d-none">Last name should be between 2 to 20
+                characters (a
+                to z or A to Z or space)</p>
+            <input id="emailSignupInput" class="form-control my-3" type="email" placeholder="Enter your email">
+            <p id="emailSignupAlert" class="alert alert-danger fw-bolder d-none">Email should be such as
+                example@domain.com
+            </p>
+            <input id="passwordSignupInput" class="form-control my-3" type="password" placeholder="Enter your Password">
+            <p id="passwordSignupAlert" class="alert alert-danger fw-bolder d-none">Password should contain at least 8
+                characters
+                1 number 1 lowercase character 1 uppercase character</p>
+            <input id="ageInput" class="form-control my-3" type="number" placeholder="Enter your age">
+            <p id="ageAlert" class="alert alert-danger fw-bolder d-none">You must be 18 years of age or older</p>
+            <p id="requiredSignupAlert" class="text-danger d-none">All inputs is required</p>
+            <p id="existsAlert" class="text-danger d-none"></p>
+            <p id="successAlert" class="text-success d-none"></p>
+            <button id="signupButton" class="w-100 btn btn-outline-info my-3">Sign Up</button>
+            <p id="signinLinkText">You have an account? <a id="signinLink" href="index.html">Signin</a></p>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Login</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="description" content="Smart Login System">
+
+    <meta name="keywords" content="Smart Login System">
+
+    <meta name="author" content="Abdelrahman Elsayed">
+
+    <link rel="shortcut icon" href="img/lock.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="loading">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <div>
+
+        <div id="loginPage" class="w-75 m-auto text-center my-5 p-5 shadow">
+            <div class="text-start"><img src="img/login.png" alt="login"></div>
+            <h1>Smart Login System</h1>
+            <input id="emailInput" class="form-control my-3" type="text" placeholder="Enter your email">
+            <input id="passwordInput" class="form-control my-3" type="password" placeholder="Enter your Password">
+            <p id="requiredAlert" class="text-danger d-none">All inputs is required</p>
+            <p id="incorrectAlert" class="text-danger d-none"></p>
+            <button id="loginButton" class="w-100 btn btn-outline-info my-3">login</button>
+            <p id="signupLinkText">Don’t have an account? <a id="signupLink" href="signup.html">Sign Up</a></p>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+
+</html>
