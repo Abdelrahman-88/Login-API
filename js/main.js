@@ -75,9 +75,14 @@ async function signup() {
             successAlert.classList.remove("d-none");
             existsAlert.classList.add("d-none");
             clearForm();
+            setTimeout(changeLocation , 3000);
         }
     }
 
+}
+
+function changeLocation(){
+    location.href = "index.html"
 }
 
 $(firstNameInput).keyup(firstNameValidation);
@@ -178,7 +183,7 @@ $(document).ready(function () {
 
 if(window.location.toString().includes("home")){
     if (JSON.parse(sessionStorage.getItem("login")) != "success") {
-        location.href = "index.html";
+        changeLocation();
     }
 }
 
