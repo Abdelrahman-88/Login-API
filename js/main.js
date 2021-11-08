@@ -23,9 +23,7 @@ let passwordAlert = document.getElementById("passwordAlert");
 let emailSignupAlert = document.getElementById("emailSignupAlert");
 let passwordSignupAlert = document.getElementById("passwordSignupAlert");
 let ageAlert = document.getElementById("ageAlert");
-let url = location.href;
-let index = url.lastIndexOf("/");
-let fixed = url.substring(0, index);
+
 
 // signup
 
